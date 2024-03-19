@@ -1,0 +1,188 @@
+.loginSignUp{
+   display: flex;
+   flex-direction: column;
+   height: 90vh; 
+   background-color: #fce3fe;
+}
+.loginSignUpcontainer{
+   display: flex;
+   flex-direction: column; 
+   background-color: white;
+   width: 40%; 
+   /* height:80%; */
+   margin: 20px auto; 
+   margin-top: 50px; 
+   border-radius: 25px;
+}
+.loginSignUpcontainer h1{
+   align-items: center;
+   font-size: 45px;
+   font-weight: 500; 
+   font-family: 'poppins';
+   padding-top: 20px;
+   margin: 20px auto;
+}
+.login-signUp-feilds{
+   display: flex;
+   flex-direction: column;
+   gap:30px;  
+   margin-top: 30px;
+}
+.login-signUp-feilds input{
+     height:72px;
+     /* border-radius: 34px; */
+     margin:0px auto; 
+     width: 80%; 
+     font-size: 24px;
+     color: rgb(212, 210, 210); 
+     border: 1px solid grey; 
+     padding: 5px 15px; 
+     font-family: 'poppins';
+}
+.loginSignUpcontainer button{
+    width:84%;
+    margin-top: 40px;
+    margin-left: 60px; 
+    height:76px; 
+    font-size: 24px;
+    padding: 5px auto; 
+    background-color:#ff4141;
+    color: white; 
+    font-weight: 500; 
+    border: none; 
+    cursor: pointer; 
+    /* margin-bottom: 30px; */
+}
+.loginSignUp-login { 
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-left:64px;
+    font-size: 23px;   
+    margin-bottom: 20px;
+}
+.loginSignUp-login span{
+   font-size: 23px;
+   font-weight: 500; 
+   cursor: pointer;
+   margin-left: 20px; 
+   color: #ff4141;
+} 
+.loginSignUp-agree{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:30px;  
+  margin: auto;
+  font-size: 20px; 
+  margin-bottom: 30px;
+}
+@media (max-width:1400px) {
+      .loginSignUpcontainer{ 
+       margin-top: 70px;
+        width: 60%; 
+       margin-bottom: 30px;
+      }
+     .loginSignUpcontainer button{
+       width: 80%; 
+       margin: 20px auto;
+     }
+     .loginSignUp-agree { 
+       display: flex;
+       margin: 10px auto; 
+       align-items: center;  
+       font-size: 13px;
+      /* text-align: end; */
+     }
+     .loginSignUp-login {
+       font-size: 22px;
+     }
+}
+@media (max-width:1050px) {
+      .loginSignUpcontainer{ 
+       margin-top: 70px;
+        width: 70%; 
+       margin-bottom: 30px;
+      }
+     .loginSignUpcontainer button{
+       width: 80%; 
+       margin: 20px auto;
+     }
+     .loginSignUp-agree { 
+       display: flex;
+       margin: 10px auto; 
+       align-items: center;  
+       font-size: 13px;
+      /* text-align: end; */
+     }
+     .loginSignUp-login {
+       font-size: 18px;
+     }
+     .loginSignUp-login span{
+       font-size: 18px;
+     }
+}
+@media (max-width:750px) {
+      .loginSignUpcontainer{ 
+       margin-top: 70px;
+       width: 70%; 
+       margin-bottom: 30px;
+      }
+      .loginSignUpcontainer h1{
+        font-size: 34px;
+      }
+      .login-signUp-feilds input{
+        height:52px;
+      font-size: 16px;
+      padding: 5px 15px; 
+      }
+     .loginSignUpcontainer button{
+       width: 82%; 
+       margin: 20px auto;
+        height:52px;
+     }
+     .loginSignUp-agree { 
+       display: flex;
+       margin: 10px auto; 
+       align-items: center;  
+       font-size: 12px;
+      /* text-align: end; */
+     }
+     .loginSignUp-login {
+       font-size: 15px;
+     }
+     .loginSignUp-login span{
+       font-size: 13px;
+     }
+}
+@media (max-width:600px) {
+      .loginSignUpcontainer{ 
+       margin-top: 70px;
+       width: 80%; 
+       margin-bottom: 30px;
+      }
+      .loginSignUpcontainer h1{
+        font-size: 34px;
+      }
+      .login-signUp-feilds input{
+      height:72px;
+      font-size: 16px;
+      padding: 5px 15px; 
+      }
+     .loginSignUpcontainer button{
+       width: 82%; 
+       margin: 20px auto;
+       height:52px;
+     }
+     .loginSignUp-agree { 
+       display: flex;
+       margin: 10px auto; 
+       align-items: center;  
+       font-size: 10px;
+     }
+     .loginSignUp-login {
+       font-size: 15px;
+     }
+     .loginSignUp-login span{
+       font-size: 13px;
+     }
+}

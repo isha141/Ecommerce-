@@ -1,0 +1,6 @@
+.descriptionBox{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 870px; 
+    margin-top: -589px;
+}

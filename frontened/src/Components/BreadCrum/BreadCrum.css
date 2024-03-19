@@ -1,0 +1,44 @@
+.breadcrum{
+  display: flex;
+  margin: 60px; 
+  margin-left: 100px;
+  font-size: 23px; 
+  flex-direction: row; 
+  font-weight: 600;
+  font-family: 'poppins'; 
+  gap:20px; 
+  color: #5e5e5e; 
+  align-items: center;
+  justify-self: center;
+  text-transform: capitalize;
+}
+@media (max-width:1050px) {
+  .breadcrum{
+     font-size: 18px; 
+  }
+  .breadcrum img{
+     width: 16px; 
+     align-items: center;
+     justify-content: center;
+  }
+}
+@media (max-width:775px) {
+  .breadcrum{
+     font-size: 14px; 
+  }
+  .breadcrum img{
+     width: 14px; 
+     align-items: center;
+     justify-content: center;
+  }
+}
+@media (max-width:600px) {
+  .breadcrum{
+     font-size: 12px; 
+  }
+  .breadcrum img{
+     width: 14px; 
+     align-items: center;
+     justify-content: center;
+  }
+}
